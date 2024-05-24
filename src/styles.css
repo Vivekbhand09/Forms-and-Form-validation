@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ background-color: #fff;
+}
+
+.main {
+  text-align: center
+  
+  
+}
+.title{
+  font-size:35px;
+  font-weight: bolder;
+  text-align: center;
+  color:#030637;
+  font-weight: bolder;
+}
+
+.main form,
+.main .details {
+ 
+  width: 600px;
+  border: 1px solid #ddd;
+  margin: 15px;
+  padding: 23px;
+  text-align: center;
+  margin-left: 30%;
+  background-color: #E5D4FF;
+  border-radius: 15px;
+}
+
+.main .details > div {
+  margin: 15px;
+  font-weight: 500;
+  font-size: large;
+}
+
+.main .details > h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  font-weight: bolder;
+  color: #D2649A;
+  font-size: x-large;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.body{
+  display:block;
+  justify-content:center;
+  align-content: center;
+}
+
+
+
+
+input{
+  padding: 15px;
+  margin: 10px
+  
+}
+
+
+button {
+  padding: 10px;
+  margin: 5px;
+}
+
+h3 {
+  margin: 5px;
+  padding: 15px 15px 0px 15px;
+  font-weight: 300;
+}
+
+.errorMsg {
+  padding: 5px;
+  margin: 0px;
+  font-size: 11px;
+  color: red;
+}
+
+.signup_button{
+  width:150px;
+    height:30px;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+    background-color: #4CAF50;
+    color:white;
+    font-size:medium;
+    margin-bottom: 10px;
+    padding: 10px 5px 25px;
+    text-align: center;
+    
+}
+button:hover{
+    text-align: center;
+  border:3px solid #FFFAE6;
+  }
+
+ .country_name{
+    list-style: none;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 13px;
+    margin-left: -195px;
+    
+  }
+  .city_name{
+    list-style: none;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: -170px;
+    margin-bottom: 10px;
+  }
+  .pass_button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 137px;
+    width:45px;
+    height:20px;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+    background-color: #92B4EC;
+    color:white;
+    font-size:small;
+    margin-bottom: -15px;
+    padding: 10px 1px 25px;
+    text-align: center;
+ 
+    
+  }
+
+  
+  .phone_drop{
+    list-style: none;
+    text-decoration: none;
+    border-radius: 10px 0 0 10px;
+    padding: 15px;
+    margin-left: 18px;
+    margin-bottom: 13px;
+  }
+  
+  input[type="text-1"]{
+    width: 225px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    margin-left: -0.1px;
+    
+  
+  }
